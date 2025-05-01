@@ -952,3 +952,35 @@ section {
     padding-right: 20px;
   }
 }
+
+.language-selector {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px; /* Tugmalar orasidagi masofa */
+  background-color: rgba(255, 255, 255, 0.7); /* Yengil fon */
+  padding: 5px 10px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.language-selector button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.language-selector button:hover {
+  background-color: #0056b3;
+}
+
+.language-selector button:focus {
+  outline: none;
+}
